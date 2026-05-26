@@ -12,7 +12,7 @@ How explained right on top, just a guide for making your chimera easy to install
 
 Here i will provide the full guide for Chimerocky (Chimera + bedrock + sway, that we will install in process).
 
-So firstly, all you want to do, is obviously install chimera iso. https://chimera-linux.org/downloads/ is the official site for downloading the images. Then, use the documentation on installing the chimera linux (its kinda like arch, you need to do it manualy). Then, after succesfully installing the system and rebooting (follow [docs](https://chimera-linux.org/docs/) to install it), make sure everything works just fine. Be aware, that some apps or things couldn't be installed of dinit/musl on chimera, as it standarts of chimera linux. 
+So firstly, all you want to do, is obviously install chimera iso. https://chimera-linux.org/downloads/ is the official site for downloading the images. Then, use the documentation on installing the chimera linux (its kinda like arch, you need to do it manualy). Then, after succesfully installing the system and rebooting (follow [docs](https://chimera-linux.org/docs/) to install it), make sure everything works just fine. Be aware, that some apps or things couldn't be installed of dinit/musl on chimera, as it standarts of chimera linux. Also i really recommend to install base apps, like dolphin or nautils, vim, emacs or nano, git and other very important things.
 
 
 # Guide. Chatper two: Bedrock Installation.
