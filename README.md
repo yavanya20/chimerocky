@@ -1,4 +1,4 @@
- # chimerocky
+ # chimerocky (or just bedrock on top of chimera with sway)
 
 A Chimera guide, with lightweight Sway and bedrock, as a main branch for installing apps from another "realms". "
 
@@ -12,12 +12,12 @@ How explained right on top, just a guide for making your chimera easy to install
 
 Here i will provide the full guide for Chimerocky (Chimera + bedrock + sway, that we will install in process).
 
-So firstly, all you want to do, is obviously install chimera iso. https://chimera-linux.org/downloads/ is the official site for downloading the images. Then, use the documentation on installing the chimera linux (its kinda like arch, you need to do it manualy). Then, after succesfully installing the system and rebooting (follow [docs](https://chimera-linux.org/docs/) to install it), make sure everything works just fine. Be aware, that some apps or things couldn't be installed of dinit/musl on chimera, as it standarts of chimera linux. Also i really recommend to install base apps, like dolphin or nautils, vim, emacs or nano, git and other very important things.
+So firstly, all you want to do, is obviously install chimera iso. https://chimera-linux.org/downloads/ is the official site for downloading the images. Then, use the documentation on installing the chimera linux (its kinda like arch, you need to do it manualy). Then, after succesfully installing the system and rebooting (follow [docs](https://chimera-linux.org/docs/) to install it, or use installation script), make sure everything works just fine. Be aware, that some apps or things couldn't be installed of dinit/musl on chimera, as it standarts of chimera linux. Also i really recommend to install base apps, like dolphin or nautils, vim, emacs or nano, git and other very important things.
 
 
 # Guide. Chatper two: Bedrock Installation.
 
-You installed the chimera? Nice! We can move on installing bedrock. ( ITS OPTIONAL!!! BE AWARE, THAT BEDROCK IS QUITE UNSTABLE, WHEN SYSTEMS LIKE DEBIAN UPDATING THEIR PACKAGE MANAGER!!! But if you choose to not install the bedrock, move on Sway installing.) So everything you gotta do, firstly look at the [Bedrock Compability](https://bedrocklinux.org/0.7/distro-compatibility.html). Look at the Alpine compability (or other ones, if you want to install bedrock on other OSes, but we talking about bedrock on Chimera, so i wont provide any other guide on other distros). If you still want to do it, look at the [installation instruction](https://bedrocklinux.org/0.7/installation-instructions.html). And in the end you will see the scirpt to actually install the bedrock ( sh ./bedrock-linux-release-arch.sh --hijack ). (run it as a root user, using doas) and then reboot. Also, in the bottom of the installation instruction. there is command "brl tutorial basics", that you should run after the installation for an interactive tutorial covering Bedrock's basic usage. Every other info you can find in their [official site](https://bedrocklinux.org/). 
+You installed the chimera? Nice! We can move on installing bedrock. ( ITS OPTIONAL!!! BE AWARE, THAT BEDROCK IS QUITE UNSTABLE, WHEN SYSTEMS LIKE DEBIAN UPDATING THEIR PACKAGE MANAGER!!! But if you choose to not install the bedrock, move on Sway installing.) So everything you gotta do, firstly look at the [Bedrock Compability](https://bedrocklinux.org/0.7/distro-compatibility.html). Look at the Alpine compability (or other ones, if you want to install bedrock on other OSes, but we talking about bedrock on Chimera, so i wont provide any other guide on other distros). If you still want to do it, look at the [installation instruction](https://bedrocklinux.org/0.7/installation-instructions.html). And in the end you will see the scirpt to actually install the bedrock, but firstly install the sh script, you can find these in [here](https://raw.githubusercontent.com/bedrocklinux/bedrocklinux-userland/0.7/releases), and then run the sh script ( sh ./the-sh-script-you-downloaded.sh --hijack ). (run it as a root user, using doas) and then reboot. Also, in the bottom of the installation instruction. there is command "brl tutorial basics", that you should run after the installation for an interactive tutorial covering Bedrock's basic usage. Every other info you can find in their [official site](https://bedrocklinux.org/). 
 
 
 # Guide. Chapter 3: Sway installation.
@@ -50,7 +50,6 @@ THIS IS VERY HARD PART COMES IN because it only base on what you like or love. Y
 
 Absolutely lightweight system. No glibs, no GNU, no systemd or OpenRC (and yes, no Openrc, when it is a good systemdSHIT replacement, still sucks in performance). The reason why i choosed sway, because its literally an i3 with wayland. 
 
+# Update (27.05.2026)
 
-# My request
-
-My request for really smart people in making ISO files. Make a system based off my idea. Or i just make it myself. Who knows. Just asking.  ;) 
+There will be no releases for iso. Bedrock already makes your system "bedrocky", so every issue or request, that named "where is the release" will be closed.
