@@ -69,19 +69,19 @@ that you should run after the installation for an interactive tutorial covering 
 
 
 Finally we getting into Sway installation. Instead of Bedrock and Chimera installation, its actually pretty hard. Actually, you can choose between i3 and sway, because they are both same, but sway is on wayland, as wayland is much better than X11. Then, run the following command:
-
-```doas apk add sway foot fuzzel swaybg swaylock swayidle i3status-rust```
-
+```
+doas apk add sway foot fuzzel swaybg swaylock swayidle i3status-rust
+```
 (you can replace foor with any wayland terminal, in this guide it uses foot because of lightweight).
 
 Because Chimera uses dinit and relies on turnstile / seatd for managing user sessions and hardware access (like your graphics card and input devices), you need to make sure your user is in the correct groups and the services are running.
-
-```doas adduser your_username video && doas adduser your_username input```
-
+```
+doas adduser your_username video && doas adduser your_username input
+```
 and also 
-
-```doas dinitctl enable seatd && doas dinitctl start seatd```
-
+```
+doas dinitctl enable seatd && doas dinitctl start seatd
+```
 Make sure you have the correct Mesa/graphic drivers installed for your hardware.
 
 Intel: ```doas apk add mesa-dri-intel```
@@ -95,7 +95,7 @@ Chimera comes with PipeWire, but you should ensure the user services for audio a
 To check or enable PipeWire for your user session:
 
 ```
-Bash dinitctl --user enable pipewire
+dinitctl --user enable pipewire
 dinitctl --user enable wireplumber
 ```
 
