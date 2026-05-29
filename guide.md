@@ -8,7 +8,7 @@ A Chimera guide, with lightweight Sway and bedrock, as a main branch for install
 # What "Chimerocky" really is? Why "Bedrock"?
 
 
-How explained right on top, just a guide for making your chimera easy to install another apps, and be very, very lightweight. Altthought, its not install script or iso (that would be easier), just a guide. Screenshot it, copy/paste on usb with chimera, whatever.
+How explained right on top, just a guide for making your chimera easy to install another apps, and be very, very lightweight. Altthought, its not iso (that would be easier), just a guide. Screenshot it, copy/paste on usb with chimera, whatever.
 
 
 Bedrock installed, because i didnt want to make a system, with Distrobox. When it is good, it is more like [wine](https://www.winehq.org/), if we removed our actual path, and remained only the windows path. Also i dont really know about distrobox, but if you know about it, feel free to use IT, instead of bedrock. Bud because it is a guide for bedrock including, i wont provide a distrobox guide.
