@@ -43,7 +43,7 @@ Then, get your root partition's UUID
 
 Then, find the root UUID. And finally make the entry:
 
-``` efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "choose your name you want" --loader "\\vmlinuz-linux" --unicode "root=UUID=YOUR_ROOT_PARTITION_UUID_HERE ro initrd=\\initrd.img-linux" ```
+``` efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "choose your name you want" --loader "\\vmlinuz-linux" --unicode "root=UUID=$(blkid -s UUID -o value /dev/sda2) ro initrd=\\initrd.img-linux" ```
 
 Note: Replace /dev/nvme0n1 and --part 1 with your actual drive and EFI partition number.
 
