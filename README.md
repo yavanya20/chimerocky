@@ -21,7 +21,7 @@ Here i will provide the full guide for Chimerocky (Chimera + bedrock + sway, tha
 
 
 So firstly, all you want to do, is obviously install chimera iso. https://chimera-linux.org/downloads/ is the official site for downloading the images. Then, use the documentation on installing the chimera linux (its kinda like arch, you need to do it manualy). Then, after succesfully installing the system and rebooting (follow [docs](https://chimera-linux.org/docs/) to install it, or use installation script), make sure everything works just fine. Be aware, that some apps or things couldn't be installed of dinit/musl on chimera, as it standarts of chimera linux. Also i really recommend to install base apps, like dolphin or nautils, vim, emacs or nano, git and other very important things. **MENTION!** if you want to make system to boot fast, use [efibootmgr](https://wiki.gentoo.org/wiki/Efibootmgr) to make a boot entry. However, it will boot only linux if you do that. 
-
+**BUT WAIT!!!** using efibootmgr and UKI is very hard and strange you know. In my expirience with VM, i couldn't normally use them - they just don't boot. So please, do it on your own risk.
 
 **Making a boot entry** Skip it if you have already installed GRUB, as it was in the guide. Oh, if you really want to install Efibootmgr, just delete GRUB firstly.
 
@@ -56,6 +56,7 @@ cp /boot/vmlinuz-linux /boot/EFI/BOOT/bootx64.efi
 cp /boot/initrd.img-linux /boot/EFI/BOOT/initrd.img
 ```
 (Note: For direct EFISTUB kernel booting via fallback, you may still need a built-in command line config config embedded in the kernel, which is why a real bootloader is usually preferred below).
+
 
 # Guide. Chatper two: Bedrock Installation.
 
